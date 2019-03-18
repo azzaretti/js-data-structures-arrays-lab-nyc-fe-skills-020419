@@ -38,8 +38,10 @@ function removeLastDriver(name) {
   return driverscopy
 }
 
-
-
+function removeFirstDriver(name) {
+  let drivercopy = [...drivers]
+  driverscopy.
+}
 
 
 
