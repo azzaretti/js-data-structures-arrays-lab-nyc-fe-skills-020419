@@ -24,7 +24,10 @@ function appendDriver(name) {
   newarray.push(name)
 }
 
-
+function prependDriver(name) {
+  let newnewarray = [...drivers]
+  newnewarray.pop()
+}
 
 
 
