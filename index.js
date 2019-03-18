@@ -4,7 +4,8 @@ const drivers = [
   "Garfield"]
 
 
-  drivers.push('Ralph')
+  drivers.push("Ralph")
+  console.log(drivers)
 
 
 
