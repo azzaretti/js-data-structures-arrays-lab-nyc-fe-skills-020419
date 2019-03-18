@@ -4,10 +4,9 @@ const drivers = [
   "Garfield"]
 
 
-  name.push('Ralph')
+  drivers.push('Ralph')
 
 
-console.log(destructivelyAppendDriver(drivers))
 
 
 
