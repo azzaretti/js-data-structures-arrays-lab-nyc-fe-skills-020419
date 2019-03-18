@@ -20,16 +20,16 @@ function destructivelyRemoveFirstDriver(name){
 }
 
 function appendDriver(name) {
-  let newarray = [...drivers]
-  newarray.push(name)
+  let driverscopyh = [...drivers]
+  driverscopy.push(name)
 }
 
 function prependDriver(name) {
-  let newnewarray = [...drivers]
-  newnewarray.shift()
+  let driverscopy = [...drivers]
+  driverscopy.shift(name)
 }
 
-function 
+
 
 
 
