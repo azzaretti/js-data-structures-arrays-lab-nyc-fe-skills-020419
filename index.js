@@ -22,6 +22,7 @@ function destructivelyRemoveFirstDriver(name){
 function appendDriver(name){
   let driverscopy = [...drivers]
   driverscopy.push(name)
+  return driverscopy
 }
 
 
