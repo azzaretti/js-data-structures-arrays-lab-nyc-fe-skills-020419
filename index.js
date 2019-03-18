@@ -27,7 +27,7 @@ function appendDriver(name){
 
 function prependDriver(name){
   let driverscopy = [...drivers]
-  driverscopy.shift(name)
+  driverscopy.unshift(name)
   return driverscopy
 }
 
