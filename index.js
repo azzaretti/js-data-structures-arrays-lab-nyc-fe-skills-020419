@@ -1,4 +1,4 @@
-let drivers = [
+const drivers = [
   "Milo",
   "Otis",
   "Garfield"]
