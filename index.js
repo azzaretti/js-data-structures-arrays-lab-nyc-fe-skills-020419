@@ -19,13 +19,12 @@ function destructivelyRemoveFirstDriver(name){
   drivers.shift(name)
 }
 
-function appendDriver(name) {
+function appendDriver(name){
   let driverscopy = [...drivers]
   driverscopy.push(name)
-  console.log(driverscopy)
 }
 
-function prependDriver(name) {
+function prependDriver(name){
   let driverscopy = [...drivers]
   driverscopy.shift(name)
 }
