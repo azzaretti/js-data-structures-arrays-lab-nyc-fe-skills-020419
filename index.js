@@ -21,7 +21,7 @@ function destructivelyRemoveFirstDriver(name){
 
 function appendDriver(name) {
   let newarray = [...drivers]
-  newarray.push(name)
+  newarray.unshift(name)
 }
 
 function prependDriver(name) {
