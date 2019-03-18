@@ -32,6 +32,15 @@ function prependDriver(name){
 }
 
 
+function removeLastDriver(name) {
+  let driverscopy = [...drivers]
+  driverscopy.pop()
+  return driverscopy
+}
+
+function 
+
+
 
 
 
