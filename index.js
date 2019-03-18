@@ -3,4 +3,4 @@ const drivers = [
   "Otis",
   "Garfield"]
 
-
+function destructi
