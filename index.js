@@ -3,7 +3,7 @@ const drivers = [
   "Otis",
   "Garfield"]
 
-function destrucivelyAppendDriver(name) {
+function destructivelyAppendDriver(name) {
   drivers.push(name)
 }
 
